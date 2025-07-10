@@ -32,10 +32,10 @@ export const testingHands = [
     runScore: 8,
   },
   {
-    hand: "5H 5S 5D 5C TH",
+    hand: "5H 5S 5D JC 5C",
     fifteenScore: 16,
     flushScore: 0,
-    nobsScore: 0,
+    nobsScore: 1,
     pairScore: 12,
     runScore: 0,
   },

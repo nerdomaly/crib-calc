@@ -32,7 +32,7 @@ describe("Testing Nobs Scores", () => {
     test(`${hand} should score ${nobsScore}`, () => {
       const cards = hand.split(" ").map((card) => parseCard(card)!);
 
-      expect(scoreNobs(cards.slice(0, 4), cards[5])).toBe(nobsScore);
+      expect(scoreNobs(cards.slice(0, 4), cards[4])).toBe(nobsScore);
     });
   });
 });
@@ -67,7 +67,9 @@ describe("Testing Total Scores", () => {
     test(`${hand} should score ${score}`, () => {
       const cards = hand.split(" ").map((card) => parseCard(card)!);
 
-      expect(calculateCribbageScore(cards).totalScore).toBe(score);
+      expect(
+        calculateCribbageScore(cards.slice(0, 4), cards[4]).totalScore
+      ).toBe(score);
     });
   });
 });
