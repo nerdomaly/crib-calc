@@ -1,0 +1,42 @@
+TESTING_HANDS = [
+    {
+        "hand": "AH AD 2H 3H 4H",
+        "fifteen_score": 0,
+        "flush_score": 0,
+        "nobs_score": 0,
+        "pair_score": 2,
+        "run_score": 8,
+    },
+    {
+        "hand": "AH 2D 3H 4H 5H",
+        "fifteen_score": 2,
+        "flush_score": 0,
+        "nobs_score": 0,
+        "pair_score": 0,
+        "run_score": 5,
+    },
+    {
+        "hand": "8H 7H 8D 7D 7C",
+        "fifteen_score": 12,
+        "flush_score": 0,
+        "nobs_score": 0,
+        "pair_score": 8,
+        "run_score": 0,
+    },
+    {
+        "hand": "6H 7H 7D 8H 9H",
+        "fifteen_score": 6,
+        "flush_score": 0,
+        "nobs_score": 0,
+        "pair_score": 2,
+        "run_score": 8,
+    },
+    {
+        "hand": "5H 5S 5D JC 5C",
+        "fifteen_score": 16,
+        "flush_score": 0,
+        "nobs_score": 1,
+        "pair_score": 12,
+        "run_score": 0,
+    },
+]

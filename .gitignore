@@ -16,3 +16,9 @@ package-lock.json
 
 #!.yarn/cache
 .pnp.*
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
